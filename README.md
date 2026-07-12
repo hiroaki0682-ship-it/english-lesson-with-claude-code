@@ -11,7 +11,7 @@ Claude Codeのカスタムスラッシュコマンドと、進捗を記録する
 ## 使い方
 
 1. このリポジトリをクローンし、Claude Codeで開く
-2. Claude Codeで `/english-setup` と入力する。目的・現状レベル・練習したいシチュエーションをAIがヒアリングし、`data/skill-roadmap.md` と `data/english-lesson-state.md` の初期設定を代わりにやってくれる(CEFRなどの専門知識は不要)
+2. Claude Codeで `/english-setup` と入力する。目的・現状レベルをAIがヒアリングし、`data/skill-roadmap.md` と `data/english-lesson-state.md` の初期設定を代わりにやってくれる(CEFRなどの専門知識は不要。具体的な練習シチュエーションはユーザーが選ばず、レッスンの中でAIがそのつど決めていく)
 3. Claude Codeで `/english-practice` と入力してレッスンを開始する
 4. トラック(ビジネス/日常会話)を聞かれたら答える
 5. 英語で会話練習が始まる。間違えたらその場で日本語で指摘される
@@ -33,7 +33,7 @@ Claude Codeのカスタムスラッシュコマンドと、進捗を記録する
 (初回のみ) /english-setup を実行
         │
         ▼
-目的・現状レベル・シチュエーションをAIがヒアリング
+目的・現状レベルをAIがヒアリング(シチュエーションは選ばせない)
         │
         ▼
 skill-roadmap.md / english-lesson-state.md を初期設定
